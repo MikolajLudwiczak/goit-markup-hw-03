@@ -1,0 +1,379 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background: #ffffff;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: #212121;
+}
+
+.contact-head > .link {
+  color: #757575;
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  margin-left: 215px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-white {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-black {
+  color: #000;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.logo-footer {
+  text-decoration: none;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+  margin: 0;
+}
+
+.service-button {
+  width: 200px;
+  height: 50px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+  margin-left: 700px;
+}
+
+.text-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.asset {
+  display: inline-flex;
+  margin-left: 215px;
+  width: 1170px;
+  height: 101px;
+  list-style-type: none;
+}
+
+.asset-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+h1 {
+  width: 696px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 452px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project-box {
+  width: 1170px;
+  height: 386px;
+  margin-left: 215px;
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+
+.project {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.team-box {
+  text-align: center;
+  padding-top: 94px;
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
+}
+
+.team-item {
+  display: inline-flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.team-pic {
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team-des {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-des > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button {
+  cursor: pointer;
+  color: #212121;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.filter {
+  text-align: center;
+  margin-top: 94px;
+}
+
+.filter-button:active,
+.filter-button:hover,
+.filter-button:focus {
+  width: 121px;
+  height: 38px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.filter-button {
+  width: 114px;
+  height: 38px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.portfolio {
+  width: 1170px;
+  margin: 0;
+}
+
+.item-portfolio {
+  width: 370px;
+  height: 404px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  font-size: 0;
+}
+
+.item-des {
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.item-img {
+  margin: 0px;
+}
+
+.item-portfolio > h3 {
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.item-portfolio > p {
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.adress {
+  color: #fff;
+}
+
+.menu-nav {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 254px;
+  height: 16px;
+  margin-top: 32px;
+  list-style-type: none;
+}
+
+.item-nav {
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contact-head {
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  height: 16px;
+  margin-top: 32px;
+  margin-right: 227px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer:hover {
+  cursor: pointer;
+}
+
+#contact {
+  padding-top: 60px;
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  width: 1600px;
+  height: 252px;
+}
+
+address {
+  color: #ffffff;
+  margin-left: 215px;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+
+.footer-contact {
+  margin-left: 215px;
+  text-decoration: none;
+  color: #757575;
+  display: block;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
